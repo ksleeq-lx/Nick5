@@ -1,0 +1,6 @@
+{
+  "name": "다람쥐 팀 일정 스케치북",
+  "description": "5살 어린아이의 스케치북 테마로 그린 파스텔톤 팀원 일정 관리 프로그램",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

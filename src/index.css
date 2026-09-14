@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Dotum', '돋움', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    font-size: 14px;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Corporate Dashboard Styling */
+.dashboard-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary-red {
+  background-color: #8B0000;
+  color: #ffffff;
+  transition: background-color 0.15s ease;
+}
+
+.btn-primary-red:hover {
+  background-color: #660000;
+}
+
+.badge-red {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
